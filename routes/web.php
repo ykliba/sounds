@@ -13,9 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
+Route::get('/', 'ReviewController@index');
+Route::get('/review/new', 'ReviewController@new');
 
 Auth::routes();
 
