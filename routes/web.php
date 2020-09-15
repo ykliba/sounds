@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'ReviewController@index');
+Route::get('/review', 'ReviewController@index');
 Route::get('/review/new', 'ReviewController@new');
 
 Auth::routes();

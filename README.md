@@ -19,6 +19,7 @@
 |desc|text|null: false|
 |image|text|  |
 |link|text|  |
+|user_id|integer|null: false|
 ### Association
 - has_many :comments
 - has_many :likes
